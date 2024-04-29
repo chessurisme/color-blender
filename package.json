@@ -4,7 +4,8 @@
 	"description": "Instantly get the color between two colors",
 	"main": "index.js",
 	"scripts": {
-		"test": "jest"
+		"test": "jest",
+		"prettier": "npx prettier . --write"
 	},
 	"keywords": [
 		"color",
@@ -15,5 +16,11 @@
 		"mixer"
 	],
 	"author": "chessurisme",
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+		"eslint": "^9.1.1"
+	},
+	"devDependencies": {
+		"prettier": "^3.2.5"
+	}
 }
