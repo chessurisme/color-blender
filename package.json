@@ -1,0 +1,19 @@
+{
+	"name": "color-blender",
+	"version": "1.0.0",
+	"description": "Instantly get the color between two colors",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"keywords": [
+		"color",
+		"blender",
+		"hex",
+		"rgb",
+		"palette",
+		"mixer"
+	],
+	"author": "chessurisme",
+	"license": "MIT"
+}
