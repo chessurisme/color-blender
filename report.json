@@ -1,0 +1,586 @@
+{
+	"numFailedTestSuites": 0,
+	"numFailedTests": 0,
+	"numPassedTestSuites": 4,
+	"numPassedTests": 13,
+	"numPendingTestSuites": 0,
+	"numPendingTests": 0,
+	"numRuntimeErrorTestSuites": 0,
+	"numTodoTests": 0,
+	"numTotalTestSuites": 4,
+	"numTotalTests": 13,
+	"openHandles": [],
+	"snapshot": {
+		"added": 0,
+		"didUpdate": false,
+		"failure": false,
+		"filesAdded": 0,
+		"filesRemoved": 0,
+		"filesRemovedList": [],
+		"filesUnmatched": 0,
+		"filesUpdated": 0,
+		"matched": 0,
+		"total": 0,
+		"unchecked": 0,
+		"uncheckedKeysByFile": [],
+		"unmatched": 0,
+		"updated": 0
+	},
+	"startTime": 1714571557983,
+	"success": true,
+	"testResults": [
+		{
+			"assertionResults": [
+				{
+					"ancestorTitles": ["rgbToHex function"],
+					"duration": 22,
+					"failureDetails": [],
+					"failureMessages": [],
+					"fullName": "rgbToHex function should convert RGB to hex",
+					"invocations": 1,
+					"location": { "column": 2, "line": 6 },
+					"numPassingAsserts": 1,
+					"retryReasons": [],
+					"status": "passed",
+					"title": "should convert RGB to hex"
+				},
+				{
+					"ancestorTitles": ["rgbToHex function"],
+					"duration": 1,
+					"failureDetails": [],
+					"failureMessages": [],
+					"fullName": "rgbToHex function should handle RGB with values less than 10",
+					"invocations": 1,
+					"location": { "column": 2, "line": 13 },
+					"numPassingAsserts": 1,
+					"retryReasons": [],
+					"status": "passed",
+					"title": "should handle RGB with values less than 10"
+				}
+			],
+			"endTime": 1714571561455,
+			"message": "",
+			"name": "C:\\Users\\Brink\\Desktop\\color-blender\\src\\pages\\home\\utilities\\__test__\\rgb-to-hex.test.js",
+			"startTime": 1714571558712,
+			"status": "passed",
+			"summary": ""
+		},
+		{
+			"assertionResults": [
+				{
+					"ancestorTitles": ["randomHexColor function"],
+					"duration": 18,
+					"failureDetails": [],
+					"failureMessages": [],
+					"fullName": "randomHexColor function should generate a valid hex color",
+					"invocations": 1,
+					"location": { "column": 2, "line": 4 },
+					"numPassingAsserts": 1,
+					"retryReasons": [],
+					"status": "passed",
+					"title": "should generate a valid hex color"
+				},
+				{
+					"ancestorTitles": ["randomHexColor function"],
+					"duration": 17,
+					"failureDetails": [],
+					"failureMessages": [],
+					"fullName": "randomHexColor function should generate unique colors",
+					"invocations": 1,
+					"location": { "column": 2, "line": 12 },
+					"numPassingAsserts": 1,
+					"retryReasons": [],
+					"status": "passed",
+					"title": "should generate unique colors"
+				}
+			],
+			"endTime": 1714571561587,
+			"message": "",
+			"name": "C:\\Users\\Brink\\Desktop\\color-blender\\src\\pages\\home\\utilities\\__test__\\random-hex-color.test.js",
+			"startTime": 1714571558722,
+			"status": "passed",
+			"summary": ""
+		},
+		{
+			"assertionResults": [
+				{
+					"ancestorTitles": ["hexToRgb function"],
+					"duration": 4,
+					"failureDetails": [],
+					"failureMessages": [],
+					"fullName": "hexToRgb function should convert hex to RGB",
+					"invocations": 1,
+					"location": { "column": 2, "line": 6 },
+					"numPassingAsserts": 1,
+					"retryReasons": [],
+					"status": "passed",
+					"title": "should convert hex to RGB"
+				},
+				{
+					"ancestorTitles": ["hexToRgb function"],
+					"duration": 1,
+					"failureDetails": [],
+					"failureMessages": [],
+					"fullName": "hexToRgb function should handle lowercase hex",
+					"invocations": 1,
+					"location": { "column": 2, "line": 13 },
+					"numPassingAsserts": 1,
+					"retryReasons": [],
+					"status": "passed",
+					"title": "should handle lowercase hex"
+				},
+				{
+					"ancestorTitles": ["hexToRgb function"],
+					"duration": 1,
+					"failureDetails": [],
+					"failureMessages": [],
+					"fullName": "hexToRgb function should handle shorthand hex",
+					"invocations": 1,
+					"location": { "column": 2, "line": 20 },
+					"numPassingAsserts": 1,
+					"retryReasons": [],
+					"status": "passed",
+					"title": "should handle shorthand hex"
+				}
+			],
+			"endTime": 1714571561736,
+			"message": "",
+			"name": "C:\\Users\\Brink\\Desktop\\color-blender\\src\\pages\\home\\utilities\\__test__\\hex-to-rgb.test.js",
+			"startTime": 1714571561506,
+			"status": "passed",
+			"summary": ""
+		},
+		{
+			"assertionResults": [
+				{
+					"ancestorTitles": ["setAttributes"],
+					"duration": 129,
+					"failureDetails": [],
+					"failureMessages": [],
+					"fullName": "setAttributes should set valid attributes on a valid HTML element",
+					"invocations": 1,
+					"location": { "column": 2, "line": 23 },
+					"numPassingAsserts": 4,
+					"retryReasons": [],
+					"status": "passed",
+					"title": "should set valid attributes on a valid HTML element"
+				},
+				{
+					"ancestorTitles": ["setAttributes"],
+					"duration": 20,
+					"failureDetails": [],
+					"failureMessages": [],
+					"fullName": "setAttributes should return false when element is not provided",
+					"invocations": 1,
+					"location": { "column": 2, "line": 39 },
+					"numPassingAsserts": 2,
+					"retryReasons": [],
+					"status": "passed",
+					"title": "should return false when element is not provided"
+				},
+				{
+					"ancestorTitles": ["setAttributes"],
+					"duration": 15,
+					"failureDetails": [],
+					"failureMessages": [],
+					"fullName": "setAttributes should not set attributes on a valid HTML element and an empty object",
+					"invocations": 1,
+					"location": { "column": 2, "line": 51 },
+					"numPassingAsserts": 2,
+					"retryReasons": [],
+					"status": "passed",
+					"title": "should not set attributes on a valid HTML element and an empty object"
+				},
+				{
+					"ancestorTitles": ["setAttributes"],
+					"duration": 14,
+					"failureDetails": [],
+					"failureMessages": [],
+					"fullName": "setAttributes should set attributes with special characters correctly when provided with a valid HTML element and a non-empty object",
+					"invocations": 1,
+					"location": { "column": 2, "line": 63 },
+					"numPassingAsserts": 4,
+					"retryReasons": [],
+					"status": "passed",
+					"title": "should set attributes with special characters correctly when provided with a valid HTML element and a non-empty object"
+				},
+				{
+					"ancestorTitles": ["setAttributes"],
+					"duration": 12,
+					"failureDetails": [],
+					"failureMessages": [],
+					"fullName": "setAttributes should return false if element is not a valid HTML element",
+					"invocations": 1,
+					"location": { "column": 2, "line": 79 },
+					"numPassingAsserts": 2,
+					"retryReasons": [],
+					"status": "passed",
+					"title": "should return false if element is not a valid HTML element"
+				},
+				{
+					"ancestorTitles": ["setAttributes"],
+					"duration": 13,
+					"failureDetails": [],
+					"failureMessages": [],
+					"fullName": "setAttributes should return false if attributes are not a valid object",
+					"invocations": 1,
+					"location": { "column": 2, "line": 88 },
+					"numPassingAsserts": 2,
+					"retryReasons": [],
+					"status": "passed",
+					"title": "should return false if attributes are not a valid object"
+				}
+			],
+			"endTime": 1714571563096,
+			"message": "",
+			"name": "C:\\Users\\Brink\\Desktop\\color-blender\\src\\utilities\\__test__\\set-attribute.test.js",
+			"startTime": 1714571558726,
+			"status": "passed",
+			"summary": ""
+		}
+	],
+	"wasInterrupted": false,
+	"coverageMap": {
+		"C:\\Users\\Brink\\Desktop\\color-blender\\src\\pages\\home\\utilities\\rgb-to-hex.js": {
+			"path": "C:\\Users\\Brink\\Desktop\\color-blender\\src\\pages\\home\\utilities\\rgb-to-hex.js",
+			"statementMap": {
+				"0": {
+					"start": { "line": 4, "column": 28 },
+					"end": { "line": 4, "column": 31 }
+				},
+				"1": {
+					"start": { "line": 5, "column": 1 },
+					"end": { "line": 7, "column": 2 }
+				}
+			},
+			"fnMap": {
+				"0": {
+					"name": "rgbToHex",
+					"decl": {
+						"start": { "line": 3, "column": 9 },
+						"end": { "line": 3, "column": 17 }
+					},
+					"loc": {
+						"start": { "line": 3, "column": 23 },
+						"end": { "line": 8, "column": 1 }
+					},
+					"line": 3
+				}
+			},
+			"branchMap": {},
+			"s": { "0": 2, "1": 2 },
+			"f": { "0": 2 },
+			"b": {},
+			"_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+			"hash": "a04fc062fdbf82b8f2125518f9f58929270b5718"
+		},
+		"C:\\Users\\Brink\\Desktop\\color-blender\\src\\pages\\home\\utilities\\random-hex-color.js": {
+			"path": "C:\\Users\\Brink\\Desktop\\color-blender\\src\\pages\\home\\utilities\\random-hex-color.js",
+			"statementMap": {
+				"0": {
+					"start": { "line": 4, "column": 13 },
+					"end": { "line": 4, "column": 44 }
+				},
+				"1": {
+					"start": { "line": 5, "column": 15 },
+					"end": { "line": 5, "column": 46 }
+				},
+				"2": {
+					"start": { "line": 6, "column": 14 },
+					"end": { "line": 6, "column": 45 }
+				},
+				"3": {
+					"start": { "line": 8, "column": 16 },
+					"end": { "line": 8, "column": 49 }
+				},
+				"4": {
+					"start": { "line": 9, "column": 18 },
+					"end": { "line": 9, "column": 53 }
+				},
+				"5": {
+					"start": { "line": 10, "column": 17 },
+					"end": { "line": 10, "column": 51 }
+				},
+				"6": {
+					"start": { "line": 12, "column": 1 },
+					"end": { "line": 12, "column": 41 }
+				}
+			},
+			"fnMap": {
+				"0": {
+					"name": "randomHexColor",
+					"decl": {
+						"start": { "line": 3, "column": 9 },
+						"end": { "line": 3, "column": 23 }
+					},
+					"loc": {
+						"start": { "line": 3, "column": 26 },
+						"end": { "line": 13, "column": 1 }
+					},
+					"line": 3
+				}
+			},
+			"branchMap": {},
+			"s": {
+				"0": 1001,
+				"1": 1001,
+				"2": 1001,
+				"3": 1001,
+				"4": 1001,
+				"5": 1001,
+				"6": 1001
+			},
+			"f": { "0": 1001 },
+			"b": {},
+			"_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+			"hash": "4cba4c97bfcb0abe43b3e4bd3806845a575032e8"
+		},
+		"C:\\Users\\Brink\\Desktop\\color-blender\\src\\pages\\home\\utilities\\hex-to-rgb.js": {
+			"path": "C:\\Users\\Brink\\Desktop\\color-blender\\src\\pages\\home\\utilities\\hex-to-rgb.js",
+			"statementMap": {
+				"0": {
+					"start": { "line": 4, "column": 16 },
+					"end": { "line": 4, "column": 46 }
+				},
+				"1": {
+					"start": { "line": 5, "column": 13 },
+					"end": { "line": 5, "column": 33 }
+				},
+				"2": {
+					"start": { "line": 6, "column": 15 },
+					"end": { "line": 6, "column": 34 }
+				},
+				"3": {
+					"start": { "line": 7, "column": 14 },
+					"end": { "line": 7, "column": 26 }
+				},
+				"4": {
+					"start": { "line": 9, "column": 1 },
+					"end": { "line": 9, "column": 26 }
+				}
+			},
+			"fnMap": {
+				"0": {
+					"name": "hexToRgb",
+					"decl": {
+						"start": { "line": 3, "column": 9 },
+						"end": { "line": 3, "column": 17 }
+					},
+					"loc": {
+						"start": { "line": 3, "column": 23 },
+						"end": { "line": 10, "column": 1 }
+					},
+					"line": 3
+				}
+			},
+			"branchMap": {},
+			"s": { "0": 3, "1": 3, "2": 3, "3": 3, "4": 3 },
+			"f": { "0": 3 },
+			"b": {},
+			"_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+			"hash": "24316f2e098f5330aa46fe577ae73c34c4737bf6"
+		},
+		"C:\\Users\\Brink\\Desktop\\color-blender\\src\\utilities\\set-attributes.js": {
+			"path": "C:\\Users\\Brink\\Desktop\\color-blender\\src\\utilities\\set-attributes.js",
+			"statementMap": {
+				"0": {
+					"start": { "line": 4, "column": 1 },
+					"end": { "line": 7, "column": 2 }
+				},
+				"1": {
+					"start": { "line": 5, "column": 2 },
+					"end": { "line": 5, "column": 48 }
+				},
+				"2": {
+					"start": { "line": 6, "column": 2 },
+					"end": { "line": 6, "column": 14 }
+				},
+				"3": {
+					"start": { "line": 9, "column": 1 },
+					"end": { "line": 12, "column": 2 }
+				},
+				"4": {
+					"start": { "line": 10, "column": 2 },
+					"end": { "line": 10, "column": 51 }
+				},
+				"5": {
+					"start": { "line": 11, "column": 2 },
+					"end": { "line": 11, "column": 14 }
+				},
+				"6": {
+					"start": { "line": 15, "column": 1 },
+					"end": { "line": 20, "column": 2 }
+				},
+				"7": {
+					"start": { "line": 17, "column": 3 },
+					"end": { "line": 17, "column": 54 }
+				},
+				"8": {
+					"start": { "line": 18, "column": 2 },
+					"end": { "line": 18, "column": 34 }
+				},
+				"9": {
+					"start": { "line": 19, "column": 2 },
+					"end": { "line": 19, "column": 14 }
+				},
+				"10": {
+					"start": { "line": 23, "column": 1 },
+					"end": { "line": 28, "column": 2 }
+				},
+				"11": {
+					"start": { "line": 25, "column": 3 },
+					"end": { "line": 25, "column": 52 }
+				},
+				"12": {
+					"start": { "line": 26, "column": 2 },
+					"end": { "line": 26, "column": 37 }
+				},
+				"13": {
+					"start": { "line": 27, "column": 2 },
+					"end": { "line": 27, "column": 14 }
+				},
+				"14": {
+					"start": { "line": 30, "column": 1 },
+					"end": { "line": 32, "column": 3 }
+				},
+				"15": {
+					"start": { "line": 31, "column": 2 },
+					"end": { "line": 31, "column": 34 }
+				},
+				"16": {
+					"start": { "line": 34, "column": 1 },
+					"end": { "line": 34, "column": 12 }
+				}
+			},
+			"fnMap": {
+				"0": {
+					"name": "setAttributes",
+					"decl": {
+						"start": { "line": 3, "column": 9 },
+						"end": { "line": 3, "column": 22 }
+					},
+					"loc": {
+						"start": { "line": 3, "column": 44 },
+						"end": { "line": 35, "column": 1 }
+					},
+					"line": 3
+				},
+				"1": {
+					"name": "(anonymous_1)",
+					"decl": {
+						"start": { "line": 30, "column": 36 },
+						"end": { "line": 30, "column": 37 }
+					},
+					"loc": {
+						"start": { "line": 30, "column": 54 },
+						"end": { "line": 32, "column": 2 }
+					},
+					"line": 30
+				}
+			},
+			"branchMap": {
+				"0": {
+					"loc": {
+						"start": { "line": 4, "column": 1 },
+						"end": { "line": 7, "column": 2 }
+					},
+					"type": "if",
+					"locations": [
+						{
+							"start": { "line": 4, "column": 1 },
+							"end": { "line": 7, "column": 2 }
+						},
+						{ "start": {}, "end": {} }
+					],
+					"line": 4
+				},
+				"1": {
+					"loc": {
+						"start": { "line": 9, "column": 1 },
+						"end": { "line": 12, "column": 2 }
+					},
+					"type": "if",
+					"locations": [
+						{
+							"start": { "line": 9, "column": 1 },
+							"end": { "line": 12, "column": 2 }
+						},
+						{ "start": {}, "end": {} }
+					],
+					"line": 9
+				},
+				"2": {
+					"loc": {
+						"start": { "line": 9, "column": 5 },
+						"end": { "line": 9, "column": 56 }
+					},
+					"type": "binary-expr",
+					"locations": [
+						{
+							"start": { "line": 9, "column": 5 },
+							"end": { "line": 9, "column": 16 }
+						},
+						{
+							"start": { "line": 9, "column": 20 },
+							"end": { "line": 9, "column": 56 }
+						}
+					],
+					"line": 9
+				},
+				"3": {
+					"loc": {
+						"start": { "line": 15, "column": 1 },
+						"end": { "line": 20, "column": 2 }
+					},
+					"type": "if",
+					"locations": [
+						{
+							"start": { "line": 15, "column": 1 },
+							"end": { "line": 20, "column": 2 }
+						},
+						{ "start": {}, "end": {} }
+					],
+					"line": 15
+				},
+				"4": {
+					"loc": {
+						"start": { "line": 23, "column": 1 },
+						"end": { "line": 28, "column": 2 }
+					},
+					"type": "if",
+					"locations": [
+						{
+							"start": { "line": 23, "column": 1 },
+							"end": { "line": 28, "column": 2 }
+						},
+						{ "start": {}, "end": {} }
+					],
+					"line": 23
+				}
+			},
+			"s": {
+				"0": 6,
+				"1": 1,
+				"2": 1,
+				"3": 5,
+				"4": 1,
+				"5": 1,
+				"6": 4,
+				"7": 1,
+				"8": 1,
+				"9": 1,
+				"10": 3,
+				"11": 1,
+				"12": 1,
+				"13": 1,
+				"14": 2,
+				"15": 6,
+				"16": 2
+			},
+			"f": { "0": 6, "1": 6 },
+			"b": { "0": [1, 5], "1": [1, 4], "2": [5, 5], "3": [1, 3], "4": [1, 2] },
+			"_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+			"hash": "bccb185c5f9072935082ce4acb5f2227cc94a72f"
+		}
+	}
+}

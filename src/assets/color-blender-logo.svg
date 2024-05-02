@@ -1,0 +1,39 @@
+<svg 
+  width="266mm"
+  height="266mm"
+  viewBox="0 0 266 266"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <g 
+    transform="scale(.76219) rotate(45 -106.058 50.655)"
+    style="stroke-width:1.31201"
+  >
+    <rect
+      style="fill:#db4857;stroke-width:.694273;stroke-linecap:round;stroke-linejoin:round" 
+      width="200" 
+      height="200" 
+      x="49.671" 
+      y="-129.934"
+      ry="26.24"
+      rx="26.24" 
+    />
+    <rect
+      style="fill:#4c5db0;stroke-width:.694273;stroke-linecap:round;stroke-linejoin:round"
+      width="200"
+      height="200"
+      x="110.119"
+      y="-190.382"
+      ry="26.24"
+      rx="26.24"
+    />
+    <rect
+      style="opacity:.5;fill:#db4857;stroke-width:.694273;stroke-linecap:round;stroke-linejoin:round"
+      width="200"
+      height="200"
+      x="49.671"
+      y="-129.934"
+      ry="26.24"
+      rx="26.24"
+    />
+  </g>
+</svg>

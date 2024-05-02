@@ -53,13 +53,13 @@ class ColorButton {
 		navigator.clipboard
 			.readText()
 			.then((text) => {
-				let colorInput = document.getElementById(`color-input-${this.id}`)
+				let color_input = document.getElementById(`color-input-${this.id}`)
 				if (!text.startsWith('#')) {
 					text = `#${text}`
 				}
 
 				console.log('Paste: ' + text)
-				colorInput.value = text
+				color_input.value = text
 			})
 			.catch((err) => {
 				console.error('Failed to read clipboard contents: ', err)
